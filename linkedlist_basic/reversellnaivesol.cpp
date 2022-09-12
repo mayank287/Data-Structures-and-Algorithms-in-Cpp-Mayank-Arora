@@ -1,3 +1,6 @@
+// Not A Optimized Approach take to much time and extra space
+
+
 #include <iostream>
 #include<vector>
 
