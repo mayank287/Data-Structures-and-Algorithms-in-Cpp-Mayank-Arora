@@ -29,15 +29,12 @@ Node *reversell(Node *head){
     curr = temp;
     
 };
-
-
  return prev;
  
 
 
     
 };
-
 
 void rprintll(Node *head){
  if(head == NULL){
@@ -49,8 +46,6 @@ void rprintll(Node *head){
  
  
 };
-
-
 
 int main(){
    Node *head = new Node(10);
