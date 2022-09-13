@@ -1,4 +1,4 @@
-// Time Complexity o(n) and Auxiliary Space Complexity is o(1)
+// Reverse Linked List Using Recursion Method 1
 
 #include <iostream>
 
@@ -19,22 +19,25 @@ struct Node{
 
 
 Node *reversell(Node *head){
-   Node *curr = head;
-   Node *prev = NULL;
-   while(curr != NULL)
-{
-    Node *temp = curr -> next;
-    curr -> next = prev;
-    prev = curr;
-    curr = temp;
-    
-};
- return prev;
- 
+
+
+ if(head == NULL ||  head -> next == NULL){
+   return head;
+   
+ };
+// Here we Getting The head of part of linklist reverse 
+Node *rest_head = reversell(head -> next);
+// Here we Donot Have Access To rest tail to we access the rest tail using the head -> next of non reversing part 
+Node *rest_tail = head -> next;
+rest_tail -> next = head;
+
+head -> next = NULL;
+return rest_head;
 
 
     
 };
+
 
 void rprintll(Node *head){
  if(head == NULL){
@@ -46,6 +49,8 @@ void rprintll(Node *head){
  
  
 };
+
+
 
 int main(){
    Node *head = new Node(10);
@@ -68,22 +73,22 @@ int main(){
 }
 
 
-// Leetcode Solution 
+// Leetcode solution
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-        ListNode *curr = head;
-        ListNode *prev = NULL;
-      while(curr != NULL){
-        ListNode *temp = curr -> next;
-        curr -> next = prev;
-        prev = curr;
-        curr = temp;
-          
-      };  
+        if(head == NULL || head -> next == NULL){
+            return head;
+        };
         
         
-        return prev;
+         ListNode *rest_head = reverseList(head -> next);
+         ListNode *rest_tail = head -> next;
+         rest_tail ->  next = head;
+         head -> next = NULL;
         
-    };
-};
+        return rest_head;
+        
+    }
+}
+ 
