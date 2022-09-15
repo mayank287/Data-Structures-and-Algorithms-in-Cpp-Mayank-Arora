@@ -1,0 +1,11 @@
+// This Thing need to Write in Theory Notebook
+Advantages
+1. We Can Traverse The Whole List from any Node.
+2. We can Insert an Item at both beginning and end at in o(1) Time by maintaing just one pointer(can use for 
+queue Implementation)
+3. Implementing Algorithm Like Round Robin
+
+
+
+Disadvantages:
+1.Codes for Traversal,insertion,deletion become slightly Complex
