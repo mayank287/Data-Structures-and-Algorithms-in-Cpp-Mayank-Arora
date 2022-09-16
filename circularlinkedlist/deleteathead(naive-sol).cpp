@@ -32,16 +32,6 @@ while(curr -> next != head){
 curr -> next = head -> next;
 delete head;
 return curr -> next;
-
-
-
-
-
-
-
-
-
-
 };
 
 

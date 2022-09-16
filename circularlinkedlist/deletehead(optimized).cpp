@@ -56,14 +56,6 @@ int main(){
    head -> next -> next-> next -> next -> next = head;
 
    Node *newhead = delhead(head);
-
-
-
    printcircularll(newhead);
-
-
     return 0;
-
-
-
 }
