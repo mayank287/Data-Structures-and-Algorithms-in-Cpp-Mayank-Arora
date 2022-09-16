@@ -1,5 +1,6 @@
 // Delete First Node in Circular Linkedlist (Naive-sol)
-// Time Complexity thetha(n)
+// Time Complexity thetha(1)
+// We Basically copy the data of head -> next into head and delete the head -> next to make original Node 
 
 
 #include <iostream>
@@ -24,23 +25,11 @@ if(head -> next == NULL){
     return NULL;
 }
 
-Node *curr = head;
-while(curr -> next != head){
-    curr = curr -> next;
-};
-
-curr -> next = head -> next;
-delete head;
-return curr -> next;
-
-
-
-
-
-
-
-
-
+head -> data = head -> next -> data;
+Node *temp = head -> next;
+head -> next = head -> next -> next;
+delete temp;
+return head;
 
 };
 
@@ -59,8 +48,8 @@ void printcircularll(Node *head){
 
 
 int main(){
-    Node *head = new Node(10);
-    head -> next = new Node(20);
+    Node *head = new Node(50);
+    head -> next = new Node(50);
     head -> next -> next  = new Node(30);
     head -> next -> next-> next =  new Node(40);
     head -> next -> next-> next -> next =  new Node(70);
