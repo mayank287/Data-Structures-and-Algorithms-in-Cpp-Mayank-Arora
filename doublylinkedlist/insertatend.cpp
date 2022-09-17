@@ -1,5 +1,5 @@
 // Insert At The End of Doubly LinkedList
-// Insert at The Head Of Doubly LinkedList 
+
 
 
 #include <iostream>
