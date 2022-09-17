@@ -1,0 +1,9 @@
+// ------------------- Advantages of Doubly Linkedlist ------------------------ //
+1. Can Be Traversed In Both Directions
+2. A Given  Delete a Node In o(1) Time With Pointer on it
+3.Insert/Delete Before a Given Node in o(1) Time
+4.Insert/Delete from both the ends in o(1) time by maintaing Tail.
+
+// ------------------- Disadvantages of Doubly Linkedlist --------------------- // 
+1. Extra Space for Prev
+2. Code becomes More Complex
