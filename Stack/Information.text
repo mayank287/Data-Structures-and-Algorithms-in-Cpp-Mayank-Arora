@@ -1,0 +1,17 @@
+// --------------------------- Notes For Stack -------------------------- // 
+
+Stack Data Structure Is Based On The Principle LIFO(Last In First Out)
+
+
+Operations On Stack
+
+1. isEmpty() : Returns True if Stack is Empty else False
+2. Push(x): Inserts an Item To The Top of The Stack
+3. Pop(): Removes an Item from the top
+4. Peak():  Returns The Top Item
+5. Size():  Returns The Size of Stack
+
+
+Two Corner Case Need To Handle While Implementation of Stack
+1. Underflow: When Pop() or Peek() Function Called on Empty Stack
+2. Overflow : When Push Called on Full Stack
