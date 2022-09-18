@@ -1,0 +1,8 @@
+// Circular Doubly Linkedlist 
+// 1. Previous Of Head is at Last Node
+// 2. Next of Last Node is Head Node
+
+
+// --------------------- Advantages of Circular Doubly Linkedlist  ----------------------- // 
+1. We Get All The  Advantages of  Circular and Double Linkedlist
+2. We Can Access last Node in Constant Time Without Maintaing Extra Tail Pointer 
