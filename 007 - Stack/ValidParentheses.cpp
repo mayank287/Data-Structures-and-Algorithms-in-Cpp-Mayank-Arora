@@ -2,6 +2,7 @@
 // Learning From This Question we use This ' ' instead of  " "
 
 #include<bits/stdc++.h>
+#include <stack>
 using namespace std;
 
 bool Matching(char a, char b){
