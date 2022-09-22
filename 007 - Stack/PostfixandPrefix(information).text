@@ -1,0 +1,9 @@
+ / *********************************** Infix,Postfix and Prefix Introduction *************************** /
+ Infix: x + y
+ Postfix: xy+
+ Prefix: +xy
+
+/ ************************************* Advantages of Prefix and Postfix ******************************** /
+1. Donot Require Parenthesis Precedence Rules and Associativity Rules
+2. Can be Evaluated By Writing a program That Traverse the Given expression Exactly Once
+
