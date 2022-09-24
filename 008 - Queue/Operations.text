@@ -1,0 +1,9 @@
+// -----------------  Queue Data Structure Operations ------------------------------- // 
+1. It is Based On The Principle FIFO(First In First Out)
+2. Operations on Queue Data Structure
+ a. enqueue(x):- To Push The Element from end in Queue
+ b. dequeue():- To Pop The Element From Top Of Queue
+ c. getFront():- To Get The Top Element of Queue
+ d. getRear():- To Get The Last Element of Queue
+ e. Size():- To Get The Size of Queue
+ f. isEmpty():- to Check Weather Queue is Empty or not
