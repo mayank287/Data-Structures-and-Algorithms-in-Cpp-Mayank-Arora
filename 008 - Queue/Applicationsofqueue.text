@@ -1,0 +1,7 @@
+// ------------------------------- Applications of Queue --------------------------------------- //
+1. Single Resource and Multiple Consumers
+2. Synchronization Between slow and Fast Devices
+3. In Operating System (Semaphores,FCFS,Scheduling,Spooling,Buffers For Devices like Keyboard)
+4. In Computer Networks (Routers/Switches and Mail Queues)
+5. Variations: Deque,Priority Queue and Doubly Ended Priority Queue
+
