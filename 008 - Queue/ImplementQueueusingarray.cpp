@@ -1,63 +1,131 @@
-class Queue {
-    
-    int* arr;
+// Implementing Queue using Array 
+// Time Complexity o(1)
+
+#include <iostream>
+
+using namespace std;
+struct Queue {
+    int *arr;
     int qfront;
-    int rear; 
+    int rear;
+    int cap;
     int size;
     
-public:
-    Queue() {
-        size = 100001;
-        arr = new int[size];
+    Queue(int c)
+    {
+        cap = c;
+        size = 0;
         qfront = 0;
         rear = 0;
+        arr = new int[c];
+        
     }
-
     
-
-    bool isEmpty() {
-        if(qfront == rear) {
-            return true;
+    bool isEmpty(){
+        return qfront == rear;
+        
+    }
+    
+    
+    
+    void enqueue(int data){
+        if(rear == cap) {
+            cout << "Queue is full" << endl;
+            
         }
-        else
-        {
-            return false;
+        else{
+            arr[rear++] = data;
+          
+            size++;
         }
     }
-
-    void enqueue(int data) {
-        if(rear == size)
-            cout << "Queue is Full" << endl;
-        else
-        {
-            arr[rear] = data;
-            rear++;
-        }
-    }
-
-    int dequeue() {
-        if(qfront == rear) {
+    
+    
+    
+    
+    int dequeue(){
+        if(qfront ==  rear){
+            cout << "Queue is Empty" << endl;
             return -1;
+            
         }
-        else
-        {	int ans = arr[qfront];
+        else{
+            int ans = arr[qfront];
             arr[qfront] = -1;
             qfront++;
-            if(qfront==rear){
-                qfront = 0;
-                rear = 0;
-            }
-         return ans;
+            size--;
+             if(qfront == rear){
+                 qfront = 0;
+                 rear = 0;
+                 
+             }
+              return ans;
+              
         }
     }
+     
+     
+     
+     int getfront(){
+         if(qfront == rear){
+             cout << "Queue  is Empty" << endl;
+             return -1;
+             
+         }
+         else{
+             return arr[qfront];
+             
+         }
+     }
+     
+     
+     
+     
+     int getrear(){
+          if(qfront == rear){
+             cout << "Queue  is Empty" << endl;
+             return -1;
+             
+         }
+         else{
+             return arr[rear-1];
+             
+         }
+     } 
+     
+     bool isfull(){
+         return rear == cap;
+         
+     }
+    
+    
+    int getsize(){
+        return size;
+        
+    }
+};
 
-    int front() {
-        if(qfront == rear) {
-            return -1;
-        }
-        else
-        {
-            return arr[qfront];
-        }
-    }
+
+
+int main()
+{
+   Queue q(5);
+    q.enqueue(10);
+    q.enqueue(20);
+    q.enqueue(30);
+    q.enqueue(40);
+    q.enqueue(50);
+    q.dequeue();
+    q.dequeue();
+    q.dequeue();
+    q.dequeue();
+    q.dequeue();
+     
+   cout << q.getfront() << endl;
+    
+  cout << q.getfront() << endl;
+  cout << q.getrear() << endl;
+
+   
+    return 0;
 };
