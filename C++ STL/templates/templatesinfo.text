@@ -1,0 +1,8 @@
+// ************************ Templates in C++ ********************************** //
+1.Write Once, use for any data type
+2. Like macros,processed by compiler but better then macros as type checking is performed
+3. Two Types
+-> Function Templates: sort,binary search,linear search
+-> class Templates: stack,queue,deque
+4. This is Main Concept behind the c++ stl
+
