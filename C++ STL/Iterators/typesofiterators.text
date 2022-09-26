@@ -10,7 +10,25 @@ input       output
        random       
 
 1.Input :- they can only be use for read not any writing like 
-we can only itr++ or itr --  and we can not do this thing like *itr =x
+we can only itr++ or itr --  and we can not do this thing like *itr =x;
+
 
 2. output :- we can only write in this we cannot read it
+
+3.Forward:- This is The Iterators Which has Capabilty of both input and output Iterators and Move Only 
+Forward
+
+4. Bidirectional :- they have Capabilty of Forward Iterators and they also move backward also
+
+5. random:- they can all Capabilty of above Iterators and also they access random item
+
+
+
+// ****************************** who supports which Iterators ? *********************************** //
+forward_list :- forward
+list:- Bidirectional
+vector:- random
+set,map,multimap,multiset :- bidirectional
+unordered_map,unordered_ste:-  forward
+stack,queue,priority_queue:- do not have any Iterators
 
