@@ -1,0 +1,16 @@
+// Types of Iterators
+
+input       output
+     \      /
+       \   /
+       forward
+         |
+     bidirectional
+         |
+       random       
+
+1.Input :- they can only be use for read not any writing like 
+we can only itr++ or itr --  and we can not do this thing like *itr =x
+
+2. output :- we can only write in this we cannot read it
+
