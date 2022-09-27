@@ -1,0 +1,9 @@
+//********************************* Vectors Info ******************************************* //
+Advantages of Vectors
+a. Dynamic Size
+b. Rich Library Functions find,erase,insert etc
+c. Easy to Know the Size
+d. No Need To pass Size
+e. Can Be returned fron Functions
+f. By default initialized with default value
+g we can copy a vector to other (for eg. v1 = v2)
