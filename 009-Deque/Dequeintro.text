@@ -1,0 +1,22 @@
+//********************************************* Deque Intro **************************************//
+
+1. Deque is Doubly Ended Queue on Which insertion and Deletion Done from Both The ends
+
+2. Operations On Deque
+ a.insertfront()
+ b.insertRear()
+ c.deleteFront()
+ d.deleteRear()
+ e.getFront()
+ f.getRear()
+ g.isFull()
+ h.isEmpty()
+ i.size()
+
+
+//************************** Applications of Deque ********************************** //
+1.A Deque can be used as noth stack and Queue
+2. Maintaining History of Applications
+3. A Steal Process Scheduling Algorithm
+4. Implementing a Priority Queue with two Type of Priorities
+5. Maximum/Minimum of all subarrays of size k in an Array
