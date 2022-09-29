@@ -1,6 +1,10 @@
 // First Circular Tour
 // Naive Approach 
 // Time Complexity o(n^2)
+// https://practice.geeksforgeeks.org/problems/circular-tour-1587115620/1
+// https://leetcode.com/problems/gas-station/
+
+
 #include <iostream>
 using namespace std;
 
@@ -16,7 +20,7 @@ int firstPetrolPuml(int petrol[], int des[], int n){
                 }
             end = (end + 1) % n;
             if(end == start){
-                return (start);
+                return (start + 1);
                 
             }
             
@@ -37,3 +41,4 @@ int main()
   
     return 0;
 }
+// O/P is 2 
