@@ -1,4 +1,4 @@
-// Clear Function  in c++ stl
+// Clear Function  in vector c++ stl
 #include <iostream>
 #include<vector>
 
@@ -7,19 +7,17 @@ using namespace std;
 
 int main()
 {
-  vector<int> v= {10,5,20,30};
- v.erase(v.begin());
- for(int x:v){
-     cout << x << endl;
- }
+vector<int> v = {10,5,20,15};
+v.clear();
+cout << v.size() << endl;
 
- v.erase(v.begin(),v.end() - 1);
- for(int x:v){
-     cout << x << endl;
-     
- }
+
+if(v.empty() == true){
+    cout << "true" << endl;
+}
+else{
+    cout << "false" << endl;
+    
+}
 return 0;
 }
-
-
-

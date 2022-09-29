@@ -1,4 +1,6 @@
-// Erase in c++ stl
+// Erase on vector in c++ stl
+// v.end() points to beyond last element
+
 #include <iostream>
 #include<vector>
 
