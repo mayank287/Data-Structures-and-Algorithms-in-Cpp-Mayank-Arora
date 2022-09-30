@@ -1,0 +1,27 @@
+//********************************* Time Complexities of Functions on Vectors ********************************//
+ 
+Functions in o(1) Time
+front()
+back()
+empty()
+begin()
+rbegin()
+crbegin()
+cbegin()
+end()
+rend()
+crend()
+cend()
+size()
+
+Functions in o(1) to o(n) depending on case 
+push_back()
+pop_back()
+
+Functions in o(n) Time 
+insert()
+erase()
+resize()
+
+
+ 
