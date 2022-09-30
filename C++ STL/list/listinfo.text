@@ -1,0 +1,8 @@
+//************************** List in C++ STL ***********************************//
+1. List In C++ STL implemented using Doubly LinkedList
+2. So We Get Benift of push_back() and pop_back()
+ Time Complexity of various function
+ reverse(), unique(),remove() take o(n) time 
+ sort() takes o(nlogn) time 
+
+ remaining all take o(1) time
