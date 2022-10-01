@@ -1,0 +1,1 @@
+// Pop, Size and Begin function in Deque
