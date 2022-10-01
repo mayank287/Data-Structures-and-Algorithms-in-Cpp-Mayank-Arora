@@ -1,7 +1,5 @@
 // Forward List In C++ STL
 // pushfornt and popfront in forward list
-
-
 #include <iostream>
 #include<forward_list>
 

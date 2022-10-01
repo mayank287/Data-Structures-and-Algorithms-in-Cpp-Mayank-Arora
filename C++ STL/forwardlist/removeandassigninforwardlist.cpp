@@ -34,7 +34,7 @@ int main()
 {
   forward_list<int> l;
   l.assign({10,20,30,10});
-  forward_list<int> l2; // we assign values of 2nd to 1st
+  forward_list<int> l2; // we assign values of 1st to 2nd 
   l2.assign(l.begin(),l.end());
   
 

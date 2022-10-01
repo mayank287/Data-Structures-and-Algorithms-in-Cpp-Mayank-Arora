@@ -1,2 +1,12 @@
 //********************************* ForwardList **************************************** //
 ForwardList in C++ STL implemented using Singly LinkedList
+
+Time Complexity of different functions
+1.insert_after() -> o(1) for one item and o(m) for m items
+2.erase_after() ->  o(1) for one item and o(m) for m items
+3.push_front() -> o(1)
+4.pop_front() -> o(1)
+5.reverse() ->  o(n)
+6.sort() -> o(nlogn)
+7.remove() -> o(n)
+8.assign() -> o(1) for one item and o(m) for m items
