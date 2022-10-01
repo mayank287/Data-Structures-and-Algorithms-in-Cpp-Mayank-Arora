@@ -24,6 +24,7 @@ void print(){
 void replace(int x, vector<int> &seq){
     auto it = find(l.begin(),l.end(),x);
     if(it == l.end()){
+        cout << "No Element Found " << endl;
         return;
         
     }
@@ -45,7 +46,7 @@ int main()
    vector<int> seq ={50,60,70};
    
    
-   replace(20,seq);
+   replace(40,seq);
    print();
    
 
