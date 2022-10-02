@@ -1,0 +1,3 @@
+//*********************** LowerBound ******************************** //
+1.Lower Bound in C++ STL returns an iterator having address of element greater
+than equal to Given Value In a Given Sorted Range

@@ -1,0 +1,6 @@
+// ************************************** Random() in C++ STL ************************* //
+1. Random Function Generates The Random Number 
+2. Random Function Generates The Random Number Betwen 0 to RAMD_MAX
+3. The value of RAMD_MAX Varies From Different Compiler 
+4. But The Least Value of RAMD_MAX is 32767
+

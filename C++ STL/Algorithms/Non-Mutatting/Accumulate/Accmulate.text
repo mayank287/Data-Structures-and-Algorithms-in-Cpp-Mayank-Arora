@@ -1,0 +1,7 @@
+// **************************** Accmulate() Function In C++ STL ************************** //
+1. Info
+The accumulate() is a built-in function in C++ STL which is used to find the sum of values in a given range in a container. It takes the range and an initial sum value as arguments and returns the sum of all elements in the range with the initial value passed as a parameter to the function.
+
+This function can also be used to perform subtraction operation or any other user-defined operation also but by default, the behavior of the accumulate() function is to find the sum only.
+2. Time Complexity
+ime Complexity: It works in O(N) time complexity as it starts with the begin iterator and goes up to the end iterator and performs the specified operation.
