@@ -1,0 +1,14 @@
+// *********************************** Deque Information ************************************** //
+1. How Deque Implemented Internally ?
+ This Can Be Implemented Using Blocks Od Pointer Which further Points To Some chunk Of Data Blocks
+ Read More About it In Theroy Section
+
+2. Time Complexity Of Different Operations
+push_back(): O(1)
+push_front(): O(1)
+pop_front(): O(1)
+pop_back(): O(1)
+random_access(): O(1)
+insert(): O(n)
+erase(): O(n)
+
