@@ -1,33 +1,24 @@
 // Erase function in deque in C++ STL
-
-
+ 
 #include<iostream>
 #include<deque>
 using namespace std;
 int main(){
-    deque<int> dq = {10,15,30,5,12};
-    auto it = dq.begin();
-     it = dq.insert(it,1256);
-     cout << *it <<endl;
+    deque<int> dq = {10,20,5,30};
+     auto it = dq.begin();
+     it = dq.insert(it,7);
+     it = dq.insert(it,2,4);
      it++;
-     cout << *it << endl;
+     it++;
      it = dq.erase(it);
-     cout << *it <<endl;
-     
-    //  it = dq.insert(it,2,3);
-    //  cout << *it <<endl;
-    //  it++;
-    //  cout << *it <<endl;
-    //  it =  dq.erase(it);
-    //  cout << *it <<endl;
-     
-    
-    
-    
-    // for(auto x : dq){
-    //     cout << x << endl;
-    // }
+    for(int i = 0; i < dq.size(); i++){
+        cout << dq[i] << " ";
+        
+    }
 
+    // It Returns Reference To The Object 
+    
+     
      return 0;
              
 }

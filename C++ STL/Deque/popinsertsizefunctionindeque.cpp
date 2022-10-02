@@ -1,6 +1,6 @@
 // Pop, Size and Begin function in Deque
 
-#inlude<iostream>
+#include<iostream>
 #include<deque>
 using namespace std;
 int main(){
