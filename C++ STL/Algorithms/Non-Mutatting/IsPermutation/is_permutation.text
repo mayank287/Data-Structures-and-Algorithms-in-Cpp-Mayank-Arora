@@ -1,0 +1,5 @@
+//************************ is_permutation *************************** //
+1. Time Complexity
+ Wrost Case o(n2) as it traverse whole  element 
+2. it returns 0 or 1 if 2 items/container has same pattern eg 1,2,3 and other is 3,2,1
+

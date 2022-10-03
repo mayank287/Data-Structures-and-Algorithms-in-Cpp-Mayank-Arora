@@ -1,0 +1,8 @@
+//*********************** Upper Bound **********************************//
+1. Upper Bound is Used To Find The Next Greater value of given value
+2. It is Also Used To Find The Value of Last Occurrence
+
+ Internal Working and Time Complexity of This 
+3. This Used binary Seach Internally and advance() Function in Internally
+4. So The Time Complexity is o(logn)
+
