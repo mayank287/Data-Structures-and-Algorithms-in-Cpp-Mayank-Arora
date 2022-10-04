@@ -1,0 +1,20 @@
+//********************* Prev permutation in C++ STL ************************** //
+1. Internal Working
+Step 1: Traverse from right, find the first element that is NOT in increasing order. Let this element be x.
+For the given sequence {5, 4, 1, 2, 3}, 
+
+x would be 4
+
+Step 2: Find the smallest element on the right of x that is smaller than x. Let this element be y.
+For the given sequence {5, 4, 1, 2, 3}
+
+y = 3
+
+Step 3: Swap x and y. This will give the lexicographically previous sequence.
+After swap: {5, 3, 1, 2, 4}
+
+Step 4: Now, to get the largest previous permutation which is smaller than the given permutation, just reverse the subsequence after new position of y or previous position of x.
+After reversing: {5, 3, 4, 2, 1}
+
+
+2. Time Complexity o(n)

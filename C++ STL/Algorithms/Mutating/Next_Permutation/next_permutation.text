@@ -1,0 +1,21 @@
+// ********************************** next_permutation ************************************* //
+1. next_permutation gives the next permutation appear in Lexographical Order(Dictionary Order )
+2. Time Complexity o(n)
+
+// ********************* next_permutation internal working  ************************************* //
+
+Step 1: Traverse from right, find the first element that is not in decreasing order. Let this element be x.
+For the given sequence {1, 2, 5, 4, 3}, 
+
+x would be 2
+
+Step 2: Find the smallest element on the right of x that is just greater than x. Let this element be y.
+For the given sequence {1, 2, 5, 4, 3}
+
+y = 3
+
+Step 3: Swap x and y. This will give the lexicographically greater sequence.
+After swap: {1, 3, 5, 4, 2}
+
+Step 4: Now, to get the smallest greater sequence, just reverse the subsequence after new position of y or previous position of x.
+After reversing: {1, 3, 2, 4, 5} 
