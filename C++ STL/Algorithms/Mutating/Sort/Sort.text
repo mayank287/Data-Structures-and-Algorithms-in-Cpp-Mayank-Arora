@@ -1,0 +1,6 @@
+// *********************** Sort in C++ STL **************************** //
+1. Time Complexity is o(nlogn)
+
+2. Internal Working of Sort Uses (Hybrid of QuickSort,HeapSort and Insertion Sort);
+
+ 
