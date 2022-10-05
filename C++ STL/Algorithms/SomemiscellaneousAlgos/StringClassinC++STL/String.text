@@ -1,0 +1,7 @@
+// *************************** String Class in C++ ************************************ //
+1. Advantages of C-style String
+a> We Do Not have To Worry About Size
+b> Can assign a String Later
+c> Support of Operators Like +, >, <,==,<= and >=
+d> Richer Library
+e> Can Be  Converted to C-Style String if needed
