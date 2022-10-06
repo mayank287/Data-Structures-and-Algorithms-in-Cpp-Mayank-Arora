@@ -1,0 +1,12 @@
+// ************************** Set in C++ STL ******************************** //
+1. internally Set uses Red Black Trees(Self Balancing Bianry Search Tree)
+2. it Gives Items in Soretd and Stores only Value onces
+3. Time Complexity 
+begin(),end(),rbegin(),rend(),cbegin(),cend(),crbegin(),crend(),size(),empty() - o(1)
+insert(),find(),count(),lower_bound(),upper_bound(),erase() - o(logn)
+erase with itr takes o(1) erase(itr) 
+
+
+4. Application
+Sorted Stream of Data
+Doubly Ended priority queue

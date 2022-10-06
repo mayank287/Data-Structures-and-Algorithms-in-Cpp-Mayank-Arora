@@ -1,0 +1,15 @@
+// Getline in c++ stl
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+string name;
+getline(cin,name,'y');
+
+cout << "your name   "   << name << endl;
+
+    return 0;
+}
