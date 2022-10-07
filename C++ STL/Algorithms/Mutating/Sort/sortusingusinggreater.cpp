@@ -1,4 +1,4 @@
-// Sort in C++ STL on Array 
+// Sort in C++ STL Using Greater Function
 #include <iostream>
 #include<algorithm>
 
@@ -9,7 +9,7 @@ int main()
     int arr[] = {10,20,5,7};
     int n = sizeof(arr)/sizeof(arr[0]);
     
-    sort(arr,arr + n);
+    sort(arr,arr + n,greater<int> ());
     for(int x :arr ){
         cout << x << endl;
         
@@ -17,6 +17,5 @@ int main()
 
     return 0;
 }
-
 
 
