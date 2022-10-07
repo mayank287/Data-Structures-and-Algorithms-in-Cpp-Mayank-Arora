@@ -39,12 +39,16 @@ void printFrequent(int arr[], int n, int k){
 
 int main()
 {
-   int arr[] = {20,40,30,20,30,40,60,60};
-   printFrequent(arr,7,3);
+   int arr[] = {20,40,30,20,30,40,60,60,60};
+   printFrequent(arr,9,5);
    
 
     return 0;
 }
+// Time Complexity o(n)(map) + o(n) (vector) + p(nlogn) (sort) + o(n) (klogn)
+// Time Complexity o(nlogn)
+
+
 
 
 
@@ -135,3 +139,4 @@ int main()
 
     return 0;
 }
+
