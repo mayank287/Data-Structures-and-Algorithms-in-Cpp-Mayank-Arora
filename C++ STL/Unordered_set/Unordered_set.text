@@ -1,0 +1,10 @@
+// ************************************* Unordered Set *********************************** //
+1> begin(),end(),rbegin(),rend() -> o(1)
+2> insert(),erase(val), erase(it),find(),count(),size(),empty() -> o(1) on Average
+
+// Internal Working of This Using Hashing
+
+
+// Applications 
+1> when we need to do operations 1> Search 2> insert 3> delete
+
