@@ -48,5 +48,5 @@ int main()
 }
 
 
-// Time Complexity :- o(n )
+// Time Complexity :- o(n)
 // Auxillary Space : -o(n)

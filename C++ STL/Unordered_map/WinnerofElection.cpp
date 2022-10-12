@@ -1,7 +1,7 @@
 // Winner of Election
 // Time Complexity o(n)
 
- #include<iostream>
+#include<iostream>
 #include<unordered_map>
 using namespace std;
 

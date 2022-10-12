@@ -1,11 +1,7 @@
 // Print Distinct Elements in Array
 // Time Complexity o(n2)
 #include <iostream>
-
 using namespace std;
-
-
-
 void printDist(int arr[], int n){
     
     for(int i = 0; i < n; i++){
@@ -39,4 +35,5 @@ int main()
 
     return 0;
 }
+
 
