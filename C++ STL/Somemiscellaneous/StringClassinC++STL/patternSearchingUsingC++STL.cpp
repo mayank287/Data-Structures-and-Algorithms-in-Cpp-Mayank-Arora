@@ -23,6 +23,7 @@ int main ()
 // O/P :- 0 10
 
 // Problem 2
+// Returns The Number After Points
 #include <iostream>
 using namespace std;
 
