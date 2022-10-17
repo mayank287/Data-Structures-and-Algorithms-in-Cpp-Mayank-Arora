@@ -27,27 +27,34 @@ int main()
     return 0;
 }
 // Method - 2
-// Time Complexity o(n
+// Time Complexity o(n)
 #include <iostream>
-#include<algorithm>
+
 using namespace std;
 
 char findExtra(string s1, string s2){
-    sort(s1.begin(),s1.end());
-    sort(s2.begin(),s2.end());
-    int n = s1.length();
-    for(int i = 0; i < n; i++){
-        if(s1[i] != s2[i]) return s2[i];
+    int count[256] = {0};
+    for(char x : s2){
+        count[x]++;
         
     }
-    return s2[n];
+    for(char x : s1) {
+        count[x]--;
+        
+    }
+    for(int i = 0; i < 256; i++){
+        if(count[i]  == 1) return (char) i;
+        
+    }
+    
+    return 0;
     
 }
-
 int main()
 {
-    cout << findExtra("abacac","baaabcc");
-    
+  cout << findExtra("ababab","ababac");
+   
 
     return 0;
 }
+
