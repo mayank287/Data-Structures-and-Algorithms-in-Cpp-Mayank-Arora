@@ -19,3 +19,7 @@ int main()
 }
 
 // O/P :- 6 12 48
+// If We assume that the leading y bits are 0, then result of(x << y) is Equivalent to x*2 power y
+// 6 = 3 * 2 power 1 = 6
+// 12 = 3 * 2 power 2 = 3 * 4 = 6
+ 
