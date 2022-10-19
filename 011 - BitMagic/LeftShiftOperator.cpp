@@ -1,4 +1,5 @@
 // Left Shift Operator in C++ 
+// it Takes 2 Arguments That Which Number to Shift and by How many Bits
 #include <iostream>
 
 using namespace std;
@@ -17,3 +18,4 @@ int main()
     return 0;
 }
 
+// O/P :- 6 12 48
