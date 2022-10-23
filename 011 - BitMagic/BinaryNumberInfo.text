@@ -1,0 +1,2 @@
+1. if we do n - 1 then all zeros become one from last set bit and last set bit become 0
+2. for Example :-  40 : - 101000 then 40 - 1 =  100111 
