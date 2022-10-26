@@ -1,5 +1,5 @@
 // Print all Divisors
-//  Time  Complexity theta(n) and  Space o(1)
+//  Time  Complexity theta(n) and  Space theta(1)
 
 #include <iostream>
 using namespace std;
