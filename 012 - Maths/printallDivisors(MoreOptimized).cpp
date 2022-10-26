@@ -1,5 +1,7 @@
 // Print all Divisors More Optimized
-#include <iostream>
+// Time Complexity theta(sqrt(n)) and Space Complexity theta(1)
+ 
+#include<iostream>
 using namespace std;
 
 void printDivisor(int n)
