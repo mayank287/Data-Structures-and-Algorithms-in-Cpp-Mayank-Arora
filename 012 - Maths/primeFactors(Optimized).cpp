@@ -14,7 +14,7 @@ void printPrimeFactors(int n)
        }
    }
    
-   if(n > 0)
+   if(n > 1)
    {
        cout << n << " ";
    }
