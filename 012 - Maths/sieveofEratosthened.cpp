@@ -1,4 +1,6 @@
-// sieve 
+// Sieve of eratosthenes
+// To Get All Prime Number upto n
+// Time Complexity o(nloglogn)
 #include <iostream>
 #include<vector>
 using namespace std;
@@ -36,9 +38,7 @@ int main()
 { 
    int n;
    cin >> n;
-   
     
-   
     sieve(n);
    
   
