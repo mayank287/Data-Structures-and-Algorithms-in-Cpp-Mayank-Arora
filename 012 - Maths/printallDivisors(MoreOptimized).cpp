@@ -2,12 +2,13 @@
 // Time Complexity theta(sqrt(n)) and Space Complexity theta(1)
  
 #include<iostream>
+#include<cmath>
 using namespace std;
 
 void printDivisor(int n)
 {
-    int i;
-    for(i = 1; i * i < n; i++)
+    
+    for(int  i = 1; i < sqrt(n); i++)
     {
         if(n % i == 0)
         {
@@ -17,8 +18,10 @@ void printDivisor(int n)
     }
     
     
+
     
-    for( ;i >= 1; i--)
+    
+    for(int i = sqrt(n) ;i >= 1; i--)
     {
         if(n % i == 0)
         {
@@ -32,7 +35,7 @@ void printDivisor(int n)
 
 int main()
 {
-    printDivisor(15);
+    printDivisor(20);
     
     return 0;
 }
