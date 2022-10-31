@@ -1,0 +1,86 @@
+// Selection Sort 
+1. Time Complexity o(n2)
+2. Does less Memory Writer Compared To QuickSort,MergeSort,InsertionSort etc But 
+Cycle Sort is Optimal in terms of Memory Writes
+3. Basic Idea For Heap Sort
+4. Not Stable
+5. In-Place
+
+
+
+// Problem here 
+// Solve This Naive
+#include <iostream>
+#include<climits>
+
+using namespace std;
+
+void swap(int *a, int *b)
+{
+    int temp = *a;
+    *a  = *b;
+    *b = temp;
+    
+    
+}
+
+
+
+
+
+void SelectionSort(int arr[], int n)
+{
+   int temp[n];
+   for(int i = 0; i < n; i++)
+   {
+       int min_index = 0;
+       for(int j = 1; j < n; j++)
+       {
+           if(arr[j] < arr[min_index])
+           {
+               min_index = j;
+               
+           }
+           
+           
+           temp[i] = arr[min_index];
+           arr[min_index] = -1;
+           
+       }
+       
+       
+       for(int i = 0; i < n; i++)
+       {
+           arr[i] = temp[i];
+           
+       }
+       
+   }
+    
+    
+    
+    
+}
+
+
+
+
+int main()
+{ 
+    
+    int arr[] = {1,5,2,8,4,6,9,10,12,4,3,20,1};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    
+    
+     SelectionSort(arr,n);
+     
+    for(int x : arr)
+    {
+        cout << x <<  endl;
+        
+    }
+    
+    
+
+    return 0;
+}
