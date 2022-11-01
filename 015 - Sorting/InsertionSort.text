@@ -1,0 +1,5 @@
+// Insertion Sort
+1. O(n2) Wrost Case
+2. In-Place and Stable
+3. Used in Practice for Small Arrays(Time Sort and Intra Sort)
+4  O(n) in Best Case
