@@ -1,0 +1,7 @@
+Merge Sort
+1. Divide and Conquer Algorithm (Divide, Conquer and Merge)
+2. Stable Algorithm
+3. theta(nlogn) Time and o(n) Aux Space
+4. Well Suited For Linked List, Works in O(1) Aux Space
+5. Used in External Sorting
+6. In General For Arrays, QuickSort Outerperforms
