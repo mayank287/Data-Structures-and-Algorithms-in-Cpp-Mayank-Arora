@@ -1,3 +1,187 @@
 // Stability of Sorting Algos 
 1. Example of Stable Sorts :- Bubble Sort, Insertion Sort, Merge Sort 
 2. Example of Unstable Sort :- Selection Sort, Quick Sort, Heap Sort 
+
+// Union of Two Sorted Array(Naive)
+// Time Complexity O((m + n ) * log(m + n))
+ 
+#include <iostream>
+#include<algorithm>
+
+
+using namespace std;
+
+
+void printUnion(int a[], int b[], int m ,int n)
+{
+    int c[m + n];
+    for(int i = 0; i < m; i++)
+    {
+        c[i] = a[i];
+    }
+        
+    for(int i = 0; i < n; i++ )
+    {
+        c[m + i] = b[i];
+        
+    }
+    
+    sort(c,c + m + n);
+    
+    for(int i = 0; i < m + n; i++)
+    {
+        if(i == 0 || c[i] != c[i - 1])
+        {
+            cout << c[i] << " ";
+        }
+    }
+    
+    
+    
+}
+
+
+
+int main()
+{
+    
+    int a[] = {10,20,20};
+    int b[] = {5,20,40,40};
+    
+    
+    printUnion(a,b,3,4);
+    
+    
+    
+    
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+void printUnion(int a[], int b[], int m, int n)
+{
+    int i = 0, j = 0;
+    while(i < m && j < n)
+    {
+        if(i > 0 && a[i] == a[i - 1])
+        {
+            i++;
+            continue;
+            
+        }
+        if(j > 0 && b[j] == b[j - 1])
+        {
+            j++;
+            continue;
+            
+        }
+        
+        if(a[i] < b[j])
+        {
+            cout << a[i] << " ";
+            i++;
+            
+        }
+        else if(a[i] > b[j])
+        {
+            cout << b[j] << " ";
+            j++;
+            
+        }
+        else{
+            cout << a[i] << " ";
+            i++;
+            j++;
+            
+        }
+        
+        
+    }
+    
+    while(i < m)
+    {
+        if(i > 0 && a[i] != a[i - 1])
+        {
+            cout << a[i] << " ";
+            i++;
+            
+        }
+    }
+    while(j < n)
+    {
+        if(j > 0 && b[j] != b[j - 1])
+        {
+            cout << b[j] << " ";
+            
+        }
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+ 
+
+int main()
+{
+     int a[] = {2,3,3,3,4,4};
+     int b[] = {4,4};
+     
+     printUnion(a,b,6,2);
+     
+    
+    
+     
+
+    return 0;
+}
+
