@@ -1,0 +1,11 @@
+ Quick Sort 
+ 1. Divide and Conquer 
+ 2. The Key Part is Partitioning
+ 3. Wrost Case Time Complexity O(n2)
+ 4. Despite Having Higher Wrost Case Time, it is Preferred Over Other 
+ Algorithm Many Times Due To following Reasons 
+ a> Tail Recursion
+ b> In-Place
+ c> Cache friendly
+ d> Average Case O(nlogn)
+ 
