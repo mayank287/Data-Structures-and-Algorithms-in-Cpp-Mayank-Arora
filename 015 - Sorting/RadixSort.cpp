@@ -1,4 +1,6 @@
 // Radix Sort
+// it is Best Then Counting Sort as It Give Time Complexity in Linear When k Increases
+// Too Much  
 // Time Complexity theta(d * (n + b)) where b = base 10
 // Space Complexity theta(n + b)
 void countingSort(int arr[], int n, int exp)

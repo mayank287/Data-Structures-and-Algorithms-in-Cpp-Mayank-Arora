@@ -1,0 +1,10 @@
+Sorting Algo OverView
+1> Binary Array(or 2 Type of Elements in Array) -> Partition of Quick Sort
+2> Array with Three Values -> Partition of Quick Sort
+3> Array of Size n and Small Ranged Values -> Counting Sort 
+4> Array of Size n and Range is of Size n2 and n3 or Closer -> Radix Sort
+5> Array is Uniformly Distribution data Over a Range -> Bucket Sort
+6> When Memory Writes are Costly -> Selection Sort, Cycle Sort
+7> When Adjacent Swaps Are Allowed -> Bubble Sort and Cocktail Sort(Bubble Sort Optimized)
+8> When Array is Small -> Insertion Sort
+9> When available Extra Memory is Less -> Shell Sort O(nlog2n)

@@ -1,0 +1,15 @@
+Bucket Sort 
+Assuming k == n
+
+Best Case
+1> Data is Uniformly Distributed
+O(n)
+
+
+Wrost Case
+1> All Items Go into A Single Bucket
+2> If We Use Insertion Sort to Sort the Indiviual 
+Buckets, Then O(n2)
+3> If We Use O(nlogn) Algorithm To Sort The
+Indiviual Buckets, Then O(nlogn)
+
