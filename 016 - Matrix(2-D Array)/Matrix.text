@@ -1,0 +1,13 @@
+Matrix Info
+1> Elements are Stored in Row - Major Order
+Means They Follow Store Elements in Row Form in Memory
+Suppose if Every Element Can Take 4 Bytes
+10(2000) 20(2004) 30(2008) 40(2012)
+Element(Memory Location) 
+
+2> Internally Curly Brackets are Optional 
+int arr[3][2] = {10,20,30,40,50,60};
+But It is Good To Use It
+
+3> Only The First Dimension Can be Omitted When We Initialize
+int [][2] = {{1,2},{3,4}};
