@@ -1,0 +1,8 @@
+// String  in C++
+1> Sequence of Characters
+2> Small Set 
+3> Contiguous Integer values for 'a'(97) to 'z' and 'A'(65) to 'Z' 
+in ASCII
+
+4> Char: ASCII
+5> Also Supports wchar_t
