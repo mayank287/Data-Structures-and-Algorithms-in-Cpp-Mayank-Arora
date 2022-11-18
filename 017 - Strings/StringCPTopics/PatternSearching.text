@@ -1,0 +1,15 @@
+Pattern Searching In String
+
+m :- Pattern Length 
+n :- Txt Length
+1 <= m <= n 
+// No Preprocessing
+1> Naive : O((n - m + 1) * m)
+2> Naive When All Characters of Pattern are Distinct :- O(n)
+// Preprocessing Pattern
+3> Rabin Karp :- O((n - m + 1) * m)
+4> KMP :- O(n)
+
+// Preprocessing Text
+
+5> Suffix Tree: O(m)
