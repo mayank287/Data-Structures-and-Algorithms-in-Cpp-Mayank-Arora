@@ -25,7 +25,7 @@ int nonRep(string &str)
  
 int main() 
 { 
-    string str = "geeksforgeeks";
+    string str = "Mayank";
     cout<<"Index of leftmost non-repeating element:"<<endl;
     cout<<nonRep(str)<<endl;  
     

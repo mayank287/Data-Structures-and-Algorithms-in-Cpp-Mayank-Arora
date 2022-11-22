@@ -19,7 +19,7 @@ int leftMost(string &str)
  
 int main() 
 { 
-    string str = "geeksforgeeks";
+    string str = "Mayank";
     cout<<"Index of leftmost repeating character:"<<endl;
     cout<<leftMost(str)<<endl;  
     
