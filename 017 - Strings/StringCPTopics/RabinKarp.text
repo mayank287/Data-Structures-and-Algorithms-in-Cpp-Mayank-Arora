@@ -1,0 +1,10 @@
+// Rabin Karp is String Searching Algo
+// 9 : 23
+
+1> It Slide the Pattern Over The Text
+2> Compare Hash Values of pattern current text Window. if hash 
+values match, then only compare the indiviual characters
+
+// Rolling Hash
+t(i + 1) = t(i) + txt[i + m] - txt[i]
+m = length of pattern 
