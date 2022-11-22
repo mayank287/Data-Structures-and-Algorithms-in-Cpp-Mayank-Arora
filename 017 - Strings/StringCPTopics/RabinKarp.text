@@ -8,3 +8,6 @@ values match, then only compare the indiviual characters
 // Rolling Hash
 t(i + 1) = t(i) + txt[i + m] - txt[i]
 m = length of pattern 
+
+// To Compute The Hash Value Sliding 
+t(i + 1) =  d(t(i) - txt[i] * d ^ (m - 1)) + txt[i + m ]
