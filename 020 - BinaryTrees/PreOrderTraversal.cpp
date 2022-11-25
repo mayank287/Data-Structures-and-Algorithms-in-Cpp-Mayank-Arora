@@ -1,5 +1,5 @@
 // PreOrder Traversal of Bianry Tree
-// Time Complexity and Space Same
+// Time Complexity and Space Same as Inorder Traversal
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,5 +1,5 @@
 // postOrder Travesal of Binary Tree
-// Time and Space Same
+// Time and Space Same as Inorder traversal 
 #include <bits/stdc++.h>
 using namespace std;
 

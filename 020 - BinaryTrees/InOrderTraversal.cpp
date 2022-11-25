@@ -1,6 +1,6 @@
 // InOrder traversal of Binary Tree
-// Time Complexity O(n)
-// Space Complexity O(Height of Tree)
+// Time Complexity theta(n)
+// Space Complexity theta(Height of Tree)
 #include <bits/stdc++.h>
 using namespace std;
 
