@@ -1,0 +1,71 @@
+----------------------------  Trees Is Non Linear Data Structure -------------------- 
+
+                    10
+                   /   \ 
+                  /     \
+                 20       30
+                /  \      / | \  
+               40   5   8   30 80
+                            / \
+                            70  9
+
+---------------------------  Terminology  --------------------------------- 
+Nodes :- 10 20 30 40 5 30 8 30 80 70 9
+Root :- 10
+Leaf Node(Nodes at Bottom Which Donot Have Anything) :-    40 5 8 70 9  80           
+Child(Nodes Which are just Below) :- example children of node 20 is 40 and 5
+Node Which are Just Above The Node is Parent
+Subtree
+Descendants :- EveryNode That Comes Under Particular Node is Called as Descendants of It For Example 20 Descendants are 40 and 5
+Degree of Node :- Number of Children it has
+Internal Nodes:- The Tree Which Donot Have Degree Zero are Called Internal Nodes
+
+------------------------------  Application of Trees -------------------------
+1> To Represent Hierarchical Data
+  Organization Structure
+  Folder Structure
+  XML/HTML Content
+  In OOP
+2> Binary Search Trees
+3> Binary Heaps
+4> B and B+ Trees in DBMS
+4> Spanning and Shorest Path Tree in Computer Networks
+5> Parse Tree Expression Tree in Compilers
+
+
+------------------- Other Trees -----------------------
+1> Trie
+2> Suffix Tree
+3> Binary Index Tree
+4> Segment Tree
+
+
+-------------------- Binary Tree ---------------------------
+1> Every Node has At-Most Two Children
+
+
+----------------------- Tree Traversal ------------------------
+
+                       10  
+                      /  \
+                     20   30
+                    /   \
+                   40    50
+
+
+  
+1> Breath First Search(or Level Order)
+2> Depth First (Inorder(Left,Root,Right),Preorder(Root,left,Right),PostOrder(Left,Right,Root))
+
+Example
+                                10
+                               /  \
+                              20   30
+                             /  \    \
+                            40  50   60
+                                /  \
+                               70  80 
+
+ Inorder :- 40 20 70 50 80 20 10 30 60
+ Preorder :- 10 20 40 50 70 80 30 60
+ PostOrder:- 40 70 80 50 20 60 30 10                               

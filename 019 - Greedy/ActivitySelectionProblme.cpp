@@ -1,5 +1,5 @@
 // Activity Selection Problem
-// Time Complexity O(nlogn)
+// Time Complexity O(nlognz)
 #include <iostream>
 #include <cmath>
 #include <bits/stdc++.h> 
