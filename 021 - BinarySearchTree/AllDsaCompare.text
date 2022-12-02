@@ -1,0 +1,46 @@
+-------------------------------  Time Complexity of Different DSA -------------------------------
+Array(Unsorted)
+Search = O(n)
+Insert = O(1)
+Delete = O(n)
+Find Closest = O(n)
+Sorted Traversal O(nlogn)
+
+
+Array(Sorted)
+Search = O(logn)
+Insert = O(n)
+Delete = O(n)
+Find Closest = O(logn)
+Sorted Traversal O(n)
+
+
+Linked List
+Search = O(n)
+Insert = O(1) in Sorted O(n)
+Delete = O(n)
+Find Closest = O(n)
+Sorted Traversal O(nlogn) in Sorted O(n)
+
+BST(Balanced)
+Search = O(logn)
+Insert = O(logn)
+Delete = O(logn)
+Find Closest = O(logn)
+Sorted Traversal O(n)
+
+
+Hash Table
+Search = O(1)
+Insert = O(1)
+Delete = O(1)
+Find Closest = O(n)
+Sorted Traversal O(nlogn)
+
+
+-----------------------------  Binary Search Tree -----------------------------
+1. For Every Node, Keys on Left Side are Smaller and Keys on Right are
+greater
+2. All Keys are Typically Consider as Distinct
+
+
