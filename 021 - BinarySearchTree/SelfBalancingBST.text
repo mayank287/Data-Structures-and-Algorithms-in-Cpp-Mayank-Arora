@@ -1,0 +1,25 @@
+------------------------ Self Balancing Binary Search Tree ------------------------
+The Idea is to do Some restructuring (or re-balancing) when doing insertion/deletion
+
+Example - 1
+Insert 100 200 and 300 in Empty BST
+
+100  ---->  100  ----> 100            ------->    200  (Left Rotate)
+               \          \                      /   \ 
+               200        200                  100   300
+                            \
+                            300
+
+
+
+300  ---->  300  ----> 300        ------->     200  (Right Rotate)
+            /          /                      /   \ 
+           200        200                   100   300
+                     /
+                   100      
+                            300
+
+
+
+Rotattion is O(1) Operation
+
