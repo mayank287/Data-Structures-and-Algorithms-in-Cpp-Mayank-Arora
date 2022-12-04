@@ -1,0 +1,19 @@
+------------------ AVL Trees ---------------------- 
+1> it is BST (For Every Node, left Subtree is Smaller then Right Greater)
+2> It is Balanced (for Every Node, Difference Between left and Right heights Does Not Exceed One )
+ Balanced factor =  |left height - right height| 
+ Balanced factor <= 1 
+
+----------------- AVL Tree insertion --------------------
+1> Perform Normal BST insert
+2> Traverse all ancestor of the newly inserted node from node to root
+3> if find the unbalanced node check for any of the below cases
+ a> Single Rotation
+  1> Left Left
+  2> Right Right
+ b> Double Rotation
+  1> Left Right
+  2> Right Left 
+
+
+// Time Complexitu theta(logn)
