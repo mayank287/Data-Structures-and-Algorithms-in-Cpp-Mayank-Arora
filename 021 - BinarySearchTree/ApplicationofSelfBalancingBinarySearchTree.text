@@ -1,0 +1,6 @@
+------------------ Application of Self Balancing Binary Search Tree --------------------------
+1> To Maintain sorted Strean of Data(Or Sorted set of Strean)
+2> To implement doubly ended priority queue
+3> To Solve Problmes Like
+ a> Count Smaller/greater in a stream
+ b> Floor/Ceiling/Greater/Smaller in a Stream

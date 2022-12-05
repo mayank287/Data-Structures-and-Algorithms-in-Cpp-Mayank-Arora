@@ -1,0 +1,17 @@
+----------------------- Red Black Trees -----------------------
+1> Every Node is Either Red or Black
+2> Root is Always Black
+3> No Two Consecutive Red
+4> Number of Black Nodes from Node to all of its descandent should be Same
+
+                         20(Black)
+                        /         \      
+                      10(Black)  10(Red)
+                                 /       \
+                                30(Black)  80(Black)
+                                /   \        /  \
+                            25(Red) 35(Red) 70(Red) 100(Red)  
+
+
+ 5> Number of Nodes on The Path from a Node to its farthest descandent leaf should not be more
+ that twice than the number of Nodes on The Path to its Closet Descandent  Leaf                         
