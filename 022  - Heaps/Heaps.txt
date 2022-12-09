@@ -1,0 +1,27 @@
+Binary Heap
+1> Used in Heap Sort
+2> Used to Implement Priority Queue
+3> Two Types
+ a> Min Heap
+ b> Max Heap
+
+
+ Binary Heap is Complete Binary Tree( Stored as an Array) 
+
+ left(i) = 2i + 1
+ right(i) = 2i + 2
+ parent(i) = floor(i - 1 / 2)
+
+
+
+ Min Heap
+ 1> Complete Binary Tree
+ 2> Every Node has Value Smaller then its Descendants
+
+         10
+        /   \
+       20   15
+      /  \   /
+     30  40  18
+
+  as an Array = {10,20,15,30,40,18}    
