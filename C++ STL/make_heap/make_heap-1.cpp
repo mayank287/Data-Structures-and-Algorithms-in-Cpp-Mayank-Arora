@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
    vector<int> v = {15,6,7,12,30};
-     // Make Heap
+     // Max Heap
      make_heap(v.begin(),v.end());
      // Min Heap
      make_heap(v.begin(),v.end(),greater<int> ());
