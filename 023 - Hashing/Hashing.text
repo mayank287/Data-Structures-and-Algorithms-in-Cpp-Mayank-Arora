@@ -1,0 +1,46 @@
+Search,Insert,Delete -> O(1) Time Complexity  
+
+Application of Hashing
+1> Dictionaries
+2> DataBase Indexing
+3> Cryptography
+4> Caches
+5> Symbol Tables in Compilers/interpreters
+6> Routers
+7> Getting Data from databases
+
+
+How Has Function Works ?
+1> Should Always map a Large Key to Same Small Key
+2> Should Generate Values from 0 to m - 1
+3> Should be fast, O(1) For Integers and O(length) for string of Length 'len'
+4> Should Uniformly Distributed Large Keys into Hash Table Slots
+
+
+Collision Handling
+
+1> if we know keys is Advance, then we can Perfect Hashing 
+2> if we do not know keys, then we use one of the following
+                     |
+                     | -> Chaining
+                     | -> Open Addressing
+                         -> Linear Probing
+                         -> Quadratic Probing 
+                         -> Double Hashing
+
+
+
+ Performance of Chaining
+ m = No of Slots is Hash Table
+ n = No of Keys to Be inserted
+
+ Load of Factor α = n / m
+ Expected Chain Length = α
+
+ Expected Time To Search = O(1 + α)
+ Expected Time To Insert/Delete = O(1 + α)
+
+ Data structure for Storing Chain
+   -> Linked List  Time Complexity O(l)
+   -> Dynamic Size Arrays(Vectors in C++)
+   -> Self Balancing BST(AVL Tree,Red Black Trees)    -> Time Complexity O(logl)                   
