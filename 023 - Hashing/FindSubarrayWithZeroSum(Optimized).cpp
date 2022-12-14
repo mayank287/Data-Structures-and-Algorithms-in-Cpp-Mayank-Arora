@@ -12,6 +12,7 @@ bool isSubarray(int arr[], int n)
     {
       return true;
     }
+    // Important Test Case
     if(prefix_sum == 0)
     {
       return true;
