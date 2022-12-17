@@ -1,0 +1,31 @@
+1> No of Slots in Hash Table >= No of keys Insert
+2> Cache Friendly
+
+Different Methods of Open Addressing 
+1> Linear Probing 
+2> Quadratic Probing
+3> Double Hashing
+
+
+How Linear Probing (Hash Function)
+h(key) = key % 7
+hash(key,i) = (h(key) + i) % 7
+
+
+How to Handle Clustring Problem With Linear Probing ?
+ 
+1> Quadratic Probing (Secondary Clusters) 
+  hash(key,i) = (h(key) + i^2) % m
+   Quadratic Probing Works better Under Following Conditions
+   1> Load Factor < 0.5 (Number Items and Hash Table Comparsion)
+   2> m is Prime
+
+2> Double Hashing :- hash(key,i) = (h1(key) + i * h2(key))  % m  
+
+
+
+
+
+
+
+

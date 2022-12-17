@@ -1,0 +1,6 @@
+ 1> In Double Hashing We Use Two Hash Function
+ 2> hash(key,i) = (h1(key) + ih2(key)) % m
+  -> if h2(key) is relatively Prime to m, then it always find a free slot if there is Open
+
+  ->Distributes Keys more Uniformly than Linear Probing and Quadratic Probing
+   Clustering
