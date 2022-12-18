@@ -1,0 +1,38 @@
+Graphs Representation 
+ 1> Adjacency Matrix
+ 2> Adjacency List 
+
+
+ Properties of Adjacency Matrix Representation
+
+
+ v = Vertex 
+ 1> Space Required = theta(v * v)
+ Operations 
+ 1> Check if u and v are Adjacent = thetha(1) 
+ 2> Find All The Vertices Adjacency to u = theta(v)
+ 3> Find the degree of u = theta(v)
+ 4> Add/Remove an Edge = theta(1)
+ 5> Add/Remove an Vertex = theta(v2)
+
+
+ Properties of Adjacency List Representation
+
+ An Array of Lists Where Lists are most Populary Represented as 
+  1> Dynamic Sized Arrays
+  3> Linked List   
+
+ Properties of Adjacency List Representation
+
+ Space -> theta(v + e)
+   -> Undirected = V + 2E
+   -> Directed = V + E 
+
+Operations
+ -> Check if There is an Edge From u to v = O(v)
+ -> Find all Adjacent of u = theta(degree(u))
+ -> Find the Degree of u = theta(1)
+ -> Add an Edge = theta(1)
+ -> Remove an Edge = O(v)
+ 
+ 

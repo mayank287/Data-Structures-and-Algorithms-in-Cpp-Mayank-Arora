@@ -43,17 +43,18 @@ Walk -> v1,v2,v4,v2 (Repetition is Allowed)
 Path -> v1,v2,v4(Repetition is Not Allowed)
 Cyclic -> There Exists a Walk That Begins and Ends With Same Vertex
 
-Cyclic Undirected
+  Cyclic Undirected
      
        v1
       /  \
      v2 - v3  
  Same For Undirected But Only Arrows Come
 
- Undirected Acyclic Graphs
-       v1
-      /   \
-     v2   v3   
+
+  Undirected Acyclic Graphs
+        v1
+        /   \
+      v2   v3   
 
  Directed Acyclic Graphs(DAG)    
 
