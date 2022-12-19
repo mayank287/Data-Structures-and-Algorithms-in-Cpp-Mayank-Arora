@@ -1,0 +1,20 @@
+List Vs Matrix Comparsion 
+
+1> Dense Graph Where Connectivity is High
+2> Sparse Graph Where Connectivity is Less 
+
+ List 
+1> Memory -> theta(v + e)
+2> Check if there is Edge from u to v -> O(v)
+3> Find all Adjacent of u -> theta(degree(u))
+4> Add an Edge theta(1)
+5> Remove an Edge O(v)
+
+ Matrix
+1> Memory -> theta(v * v)
+2> Check if there is Edge from u to v -> theta(1)
+3> Find all Adjacent of u -> theta(v)
+4> Add an Edge theta(1)
+5> Remove an Edge theta(1)
+
+  
