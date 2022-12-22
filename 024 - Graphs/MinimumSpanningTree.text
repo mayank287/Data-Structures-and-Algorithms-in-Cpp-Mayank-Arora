@@ -1,0 +1,27 @@
+Minimum Spanning Tree
+
+-> Minimize The Weight of Spanning Tree So To Sum Them All Make Sum Minimum
+ 
+Graph Example
+ -> A ---------- D 
+    |            |   
+    |            |
+    |            |
+    B----------- C
+
+Weight From A - D -> 5 Meter  
+Weight From D - C -> 7 Meter    
+Weight From C - B -> 8 Meter  
+Weight From B - A -> 9 Meter  
+Weight From A - C -> 10 Meter  
+
+This is Minimum Spanning Tree With Weight 5 + 7 + 8 = 20
+    A ---------- D 
+                 |   
+                 |
+                 |
+    B----------- C 
+
+Minimum Spanning Tree Problem Only Defined For Wighted and Connected Undirected Graph  
+Spanning Tree If We Given V Vertices Then There is V - 1 Edges Also Donot Have Any Cycle 
+        
