@@ -101,3 +101,88 @@ int main()
     return 0;
     
 }
+
+// Leetcode Solution 
+class TrieNode{
+  public:
+    bool is_word;
+    TrieNode *children[26];
+    TrieNode()
+    {
+        is_word = false;
+        for(int i = 0; i < 26; i++)
+        {
+          children[i] = NULL;
+        }
+    }
+};
+
+class Trie {
+
+public:
+    
+    Trie() {
+      root = new TrieNode();
+    }
+    
+    void insert(string word) {
+        int word_length = word.length();
+        int index = 0; 
+        TrieNode *curr = root;
+        
+        for(int i = 0; i < word_length; i++)
+        {
+            index = word[i] - 'a';
+            if(curr -> children[index] == NULL)
+            {
+                curr -> children[index] = new TrieNode();
+            }
+            curr = curr -> children[index];
+        }
+        curr -> is_word = true;
+    }
+    
+    bool search(string word) {
+       int word_len = word.length();
+        int index = 0;
+        TrieNode *curr = root;
+
+        for(int i = 0; i < word_len; i++)
+        {
+            index = word[i] - 'a';
+            curr = curr -> children[index];
+                  
+            if(curr == NULL) return false;
+
+        }
+
+        return curr -> is_word;
+    }
+    
+    bool startsWith(string prefix) {
+        int word_len = prefix.length();
+        int index = 0;
+        TrieNode *curr = root;
+
+        for(int i = 0; i < word_len; i++)
+        {
+            index = prefix[i] - 'a';
+            curr = curr -> children[index];
+            if(curr == NULL) return false;
+
+        }
+        return true;
+    }
+
+    private :
+    TrieNode *root;
+
+};
+
+/**
+ * Your Trie object will be instantiated and called as such:
+ * Trie* obj = new Trie();
+ * obj->insert(word);
+ * bool param_2 = obj->search(word);
+ * bool param_3 = obj->startsWith(prefix);
+ */
