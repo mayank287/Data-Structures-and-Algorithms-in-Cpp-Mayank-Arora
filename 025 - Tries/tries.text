@@ -1,0 +1,26 @@
+Trie Data Structure 
+
+Efficent for the following operations on words in a dictionary 
+-> Search 
+-> Insert
+-> Delete
+-> Prefix Search
+-> Lexiographical ordering of words
+
+
+Trie Vs hashing 
+Trie 
+-> Search = theta(word_len) in Wrost Case
+-> insert = Same as Search 
+-> Delete = Same as Search 
+-> Prefix Search = theta(Prefix_length + output_length)
+-> Lexiographical ordering = theta(output_length)
+
+
+Hashing 
+-> Search = theta(word_len) in Average Case
+-> insert = Same as Search 
+-> Delete = Same as Search 
+-> Prefix Search = Not Supported
+-> Lexiographical ordering = Not Supported
+
