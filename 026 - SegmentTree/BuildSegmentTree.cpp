@@ -1,21 +1,22 @@
 // Build Segment Tree
+// Time Complexity theta(n)
 #include <iostream>
 using namespace std;
 
-int buildSegTree(int ss,int se,int si, int arr[], int tree[])
+int buildSegTree(int start,int end,int i, int arr[], int tree[])
 {
-    if(ss == se)
+    if(start == end)
     {
-        tree[si] = arr[ss];
-        return arr[ss];
+        tree[i] = arr[start];
+        return arr[start];
      }
     
-    int mid = (ss + se) / 2;
-     tree[si] = buildSegTree(ss,mid,2 * si + 1,arr,tree) +
-               buildSegTree(mid + 1,se,2 * si + 2,arr,tree);
+    int mid = (start + end) / 2;
+     tree[i] = buildSegTree(start,mid,2 * i + 1,arr,tree) +
+               buildSegTree(mid + 1,end,2 * i + 2,arr,tree);
                
                
-    return tree[si];
+    return tree[i];
   
     
 }
