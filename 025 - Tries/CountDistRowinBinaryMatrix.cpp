@@ -1,4 +1,5 @@
 // Count Disnct Row in Binary Matrix 
+// Time Complexity O(mn) and Aux Space O(mn)
 #include <iostream>
 using namespace std;
 #define ROW 4

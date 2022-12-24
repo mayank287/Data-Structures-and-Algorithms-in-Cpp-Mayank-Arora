@@ -1,4 +1,5 @@
 // Trie Insert and Search 
+// Time Complexity theta(n or Key Lemgth)
 #include<iostream>
 using namespace std;
 
