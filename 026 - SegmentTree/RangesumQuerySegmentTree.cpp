@@ -1,4 +1,5 @@
 // Update Query on Segment Tree
+// Time Complexity O(logn)
 #include<iostream>
 using namespace std;
 
@@ -50,3 +51,4 @@ int main()
     
     return 0;
 }
+
