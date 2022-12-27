@@ -1,0 +1,16 @@
+1> Binary Indexed Tree SomeTimes Takes Less Time Then Segment Trees 
+2> But All The Problems of Segment Tree Cannot be Solve Using Bina4 Indexed Tree For Example Range Min Query or 
+Range Max Query
+3> Used for Fixed Size Array and Multiple Queries of the following types:
+  a> Prefix Operations(Sum,Product,XOR,OR,etc) 
+  b> Update the value
+  Both This Query Can be Done in O(logn) Time Complexity 
+
+4> It is Actually an Array, but the Concept is Tree Based
+5> Requires O(nlogn) Preprocessing Time and theta(n) Auxiliary Space
+6> Also Know as Fenwick Tree
+7> This Can Also be used as Range Query = rangeSum(i,j) = prefixSum(j) - prefixSum(i - 1)
+8> in Binary Indexed Tree Their is One Extra Element that main array 
+ for Example if thier is 8 Element in main array(which is need to construct for bit array)
+ then bit array has one extra Element
+ 

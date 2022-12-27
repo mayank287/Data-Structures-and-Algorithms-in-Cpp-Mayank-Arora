@@ -1,0 +1,11 @@
+1> in Binary Indexed Trees the Number can be expressed as Power of 2
+    for Example 
+    14 = 2^3 + 2 ^ 2 + 2 ^1
+    10 = 2 ^ 3 + 2 ^ 1 (  ^ = Power)
+
+
+
+2> in Binary Indexed Tree Indexs and expressed as Power 2 and Their children
+3> and They Fill in Bit Array and Also Zero Index is Dummy Node and Not Filled With any 
+Value
+
