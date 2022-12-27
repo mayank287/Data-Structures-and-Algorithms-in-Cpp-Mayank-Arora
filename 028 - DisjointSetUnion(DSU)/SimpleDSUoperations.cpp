@@ -1,4 +1,5 @@
 // Simple DSU Operations 
+// Time Complexity O(n)
 #include<iostream>
 #include<vector>
 #define n 5

@@ -1,5 +1,6 @@
-// Union By Rank is Method To Reduce Chain Time Complexty 
-// Time Complexity O(logn) or O(mlogn)
+// Path Compression is Optimization Method of DSU done on Find Function 
+// This Means we Make parent of Nodes Come In Between 
+
 #include<iostream>
 using namespace std;
 #define n 5
@@ -16,11 +17,13 @@ void initialize()
     }
 }
 
-
+// Path Compression Done Here
 int find(int x)
 {
     if(parent[x] == x) return x;
-    else return find(parent[x]);
+    parent[x] = find(parent[x]);
+    return parent[x];
+    
     
 }
 
@@ -46,13 +49,13 @@ void unions(int x,int y)
 int main()
 {
     initialize();
+    unions(4,3);
     unions(3,4);
-    unions(4,1);
-    unions(1,5);
-    unions(5,3);
     
-    cout << find(5) << endl;
+    cout << find(3) << endl;
     return 0;
 }
 
-
+// Time Complexity With union by rank and parh Compression
+// For m Operations on n Elements 
+// O(m alpha (n)) => alpha(n) <= 4 => alpha(n) is Inverse Ackermann Function
