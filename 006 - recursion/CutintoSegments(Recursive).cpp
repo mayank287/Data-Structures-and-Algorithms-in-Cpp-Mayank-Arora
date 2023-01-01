@@ -1,4 +1,5 @@
-// Cod The Rod in the Segments of a,b,c
+// Cut The Rod in the Segments of a,b,c
+// Time Complexity O(3 ^ n)
 #include <iostream>
 using namespace std;
 
