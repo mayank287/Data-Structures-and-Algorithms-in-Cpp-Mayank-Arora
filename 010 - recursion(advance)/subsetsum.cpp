@@ -1,3 +1,4 @@
+// Time Complexity theta(2 ^ n  )
 class Solution{   
 public:
    bool isSubsetSumHelper(vector<int>arr,int n, int sum){
