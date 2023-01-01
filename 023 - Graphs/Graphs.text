@@ -1,0 +1,70 @@
+Graphs Data Structure 
+
+
+                 v1 --------- v3 
+                 |             | \
+                 |             |  \ 
+                 |             |   / v5
+                 |             |  /
+                 v2 ---------- v4 
+
+ G = (V,E)
+ v = Vertices
+ E = Edges
+ V = {v1,v2,v3,v4,v5}                 
+ E = {(v1,v2),(v1,v3) ------ and So On}
+
+
+
+ Directed Vs Undirected Graphs
+
+ Undirected Graphs Means We Can go From Vertex v1 -> v2 and also v2 -> v1
+ for Example (v1,v2) Here We Can Go Either from v1 -> v2 or v2 -> v1
+
+ Directed Graphs Means We Can Go Only in One Direction
+ For Example (v1,v2) We Can Only Go From v1 -> v2 But Not From V2 to v1
+
+ Some Terms For Graphs
+
+ In Undirected Graphs
+ degree(v3) = 3 (Number of Edges From That Point)
+
+
+
+
+
+ Directed Graphs
+ indegree Number of Edges Come to it (v3) = 1
+ Outdegree Number of Edges Gone From it (v3) = 2
+
+
+Some More Terms in Graphs 
+Walk -> v1,v2,v4,v2 (Repetition is Allowed)
+Path -> v1,v2,v4(Repetition is Not Allowed)
+Cyclic -> There Exists a Walk That Begins and Ends With Same Vertex
+
+  Cyclic Undirected
+     
+       v1
+      /  \
+     v2 - v3  
+ Same For Undirected But Only Arrows Come
+
+
+  Undirected Acyclic Graphs
+        v1
+        /   \
+      v2   v3   
+
+ Directed Acyclic Graphs(DAG)    
+
+  v1 ---> v2
+   |       |
+   |       |   
+   -       - 
+  v4 -----> v3
+
+
+  Weighted Vs Unweighted Graphs
+  Weighted Graphs is The Graphs Which Has Weights Given To Edges
+  
