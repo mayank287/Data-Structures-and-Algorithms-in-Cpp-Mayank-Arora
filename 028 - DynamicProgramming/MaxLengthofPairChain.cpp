@@ -1,5 +1,6 @@
 // Max Length of Pair Chain 
 // LeetCode Solution 
+// Time Complexity O(nlogn)
 class Solution {
 public:
     bool static compare(vector<int> p1,vector<int> p2)
