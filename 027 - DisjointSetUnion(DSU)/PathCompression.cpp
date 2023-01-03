@@ -43,7 +43,7 @@ void unions(int x,int y)
      else{
          parent[y_rep] = x_rep;
          ranks[x_rep]++;
-     }
+     }  
 }
 
 int main()
