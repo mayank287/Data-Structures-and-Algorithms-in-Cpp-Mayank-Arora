@@ -1,4 +1,5 @@
 // Return Number  of Strongly Connected Components 
+// Time Complexity O(V + E) and Space O(V)
 #include<bits/stdc++.h>
 using namespace std;
   
@@ -28,7 +29,7 @@ using namespace std;
             }
         }
     }
-    void kosaraju(int v, vector<int> adj[])
+    int kosaraju(int v, vector<int> adj[])
     {
         vector<int> vis(v,0);
         stack<int> st;
@@ -65,8 +66,8 @@ using namespace std;
              
              }
          }
-        
-       cout << count << endl;
+        return count;
+     
     }
     
     
@@ -96,7 +97,7 @@ int main()
         addEdge(adj,a,b);
     }
      cout << "Count of SCC are Following" << endl;
-     kosaraju(nodes,adj);
+     cout << kosaraju(nodes,adj);
        
 }
     

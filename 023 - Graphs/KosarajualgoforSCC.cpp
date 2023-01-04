@@ -1,4 +1,5 @@
 // Kosaraju For Strongly Connected Components
+// Time Complexity O(V + E) and Space O(V)
 #include<bits/stdc++.h>
 using namespace std;
   
@@ -104,3 +105,6 @@ int main()
     
     
     
+
+
+  
