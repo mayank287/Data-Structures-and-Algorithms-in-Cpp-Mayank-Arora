@@ -1,4 +1,8 @@
 // Bellam Ford Algorithm 
+// Time Complexity O(VE)
+
+#include<bits/stdc++.h>
+using namespace std;
  vector<int> bellman_ford(int v, vector<vector<int>>& edges, int s) {
        vector<int> distance(v,1e8);
        distance[s] = 0;
@@ -23,3 +27,48 @@
        
        return distance;
     }
+    
+    
+void addEdges(vector<vector<int>>&Edges, int u, int v, int w)
+{
+   vector<int> temp;
+   temp.push_back(u);
+   temp.push_back(v);
+   temp.push_back(w);
+   
+   Edges.push_back(temp);
+   
+}
+
+int main()
+{
+    vector<vector<int>> Edges;
+    int nodes;
+
+    cin >> nodes;
+    int Edge;
+ 
+    cin >> Edge;
+  
+    
+    for(int i = 0; i < Edge; i++)
+    {
+        int u,v,w;
+        cin >> u >> v >> w;
+        
+        addEdges(Edges,u,v,w);
+    }
+
+    int source;
+    cin >> source;
+    
+    vector<int> ans = bellman_ford(nodes,Edges,source);
+    for(int x : ans)
+    {
+        cout << x << " ";
+    }
+    
+    
+}
+    
+    
