@@ -1,4 +1,4 @@
-// prims algo for mst 
+// Prims ALgorithm For mst
 #include<bits/stdc++.h>
 using namespace std;
 void spannigTree(int v, vector<pair<int,int>>adj[])
@@ -50,14 +50,21 @@ void addEdge(int u, int v,int w,vector<pair<int,int>> adj[])
 }
 int main()
 {
-    vector<pair<int,int>>  adj[100];
-    addEdge(0,1,1,adj);
-    addEdge(1,2,2,adj);
-    addEdge(2,3,5,adj);
-    addEdge(3,0,4,adj);
-    addEdge(0,2,3,adj);
+    int nodes;
+    cout << "Enter no of vertices/nodes" << endl;
+    cin >> nodes;
+    vector<pair<int,int>>  adj[nodes + 1];
+    int edges;
+    cout << "Enter No of Edges" << endl;
+    cin >> edges;
     
+    for(int i = 0; i < edges; i++)
+    {
+        int x,y,w;
+        cin >> x >> y >> w;
+        addEdge(x,y,w,adj);
+    }
     
-    
-    spannigTree(4,adj);
+  
+    spannigTree(nodes,adj);
 }
